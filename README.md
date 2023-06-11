@@ -1,42 +1,66 @@
 # Project-4-Group-7
 Bootcamp UTA-VIRT-DATA-PT-12-2022-U-LOLC-MTTH
 
-                               ##Predicting Medical Expenses using Linear Regression
- #Problem Statement
-We'll work through a typical machine learning problem step-by-step:
+# Project-4-Group-7
 
-QUESTION: ACME Insurance Inc. offers affordable health insurance to thousands of customer all over the United States. As the lead data scientist at ACME, you're tasked with creating an automated system to estimate the annual medical expenditure for new customers, using information such as their age, sex, BMI, children, smoking habits and region of residence.
 
-Estimates from your system will be used to determine the annual insurance premium (amount paid every month) offered to the customer. Due to regulatory requirements, you must be able to explain why your system outputs a certain prediction.
+For Project 4, you will work with your group to solve, analyze or visualize a problem using machine learning (ML) with the other technologies we've learned. 
+## Requirements
+1. Find a problem worth solving, analyzing or visualizing. 
+2. Use machine learning (ML) with the technologies we've learned. 
+3. You must use Scikit-learn and/or another machine learning library.
+4. Your prject must be powered by a dtaset with at least 100 records.
+5. You must use at least two of the following:
 
-A CSV file containing verified historical data, consisting of the aforementioned information and the actual medical charges incurred by over 1300 customers.
+  * Python Pandas
+  * Python Matplotlib
+  * HTML/CSS/Bootstrap
+  * JavaScript Plotly
+  * JavaScript Leaflet
+  * SQL Database
+  * MongoDB Database
+  * Google Cloud SQL
+  * Amazon AWS
+  * Tableau
+
+
+### Group 7 - Health Insurance Expenses Prediction
+Using Machine Learning to predict annual medical spending for new customers
+
+Group members: 
+  * Trey Lumley
+  * Rosanna Reza-Giles
+  * Mika Mohammadyani
+  * Martha Griggs
+
+Our Goal: Use Machine Learning to estimate the annual medical spending of new customers. 
+
+## Exploratory Analysis and Visualization                               
+
+First 5 rows of our csv file:
+
 ![Alt text](image.png)
 
-The dataset contains 1338 rows and 7 columns. Each row of the dataset contains information about one customer.
+  * The dataset contains 1338 rows and 7 columns. Each row of the dataset contains information about one customer.
 
-Our objective is to find a way to estimate the value in the "charges" column using the values in the other columns. If we can do so for the historical data, then we should able to estimate charges for new customers too, simply by asking for information like their age, sex, BMI, no. of children, smoking habits and region.
+  * We will be using the charges column as our target against the other colums to be able to estimate chargest for new customers when given the same information(sex, BMI, smoking status, number of children and region). 
 
-Looks like "age", "children", "bmi" and "charges" are numbers, whereas "sex", "smoker" and "region" are strings. None of the columns contain any missing values, which saves us a fair bit of work!
+  * The dataset contained no null values, the only changes to the dataset would come when we needed to encode the categorical data contained in the sex, smoker and regions columns. 
 
-The ranges of values in the numerical columns seem reasonable too, so we may not have to do much data cleaning or correction. The "charges" column seems to be significantly skewed however, as the median (50 percentile,it is also known as 2nd quartile) is much lower than the maximum value.
-
-
-  #Exploratory Analysis and Visualization
-Let's explore the data by visualizing the distribution of values in some columns of the dataset, and the relationships between "charges" and other columns.
-
-We'll use libraries Matplotlib, Seaborn and Plotly for visualization.
+  * The ranges of values in the numerical columns seem reasonable too. The charges column seems to be significantly skewed however, as the median (50 percentile,it is also known as 2nd quartile) is much lower than the maximum value.
 
 
-  #Age
-Age is a numeric column. The minimum age in the dataset is 18 and the maximum age is 64. Thus, we can visualize the distribution of age using a histogram with 47 bins (one for each year) and a box plot. We'll use plotly to make the chart interactive, but you can create similar charts using Seaborn.
 
-![Alt text](Age.png)
+#### Age
 
-The distribution of ages in the dataset is almost uniform, with 20-30 customers at every age, except for the ages 18 and 19, which seem to have over twice as many customers as other ages.
+Age is a numeric column. The minimum age in the dataset is 18 and the maximum age is 64. Males and females are mostly equally represented in the dataset -- 676 male and 662 female. 
 
-Insight: why there are over twice as many customers with ages 18 and 19, compared to other ages?
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/79157f4f-5132-483f-9d0a-8870eae14ccf)
 
-Insuarance agency charges more money for same premium as you get older and here is the same case.people who are younger are less prone to getting sick and thus company has to pay them less for their medical bills.otherwise every age group in US has eqvivalent population density.
+
+The age is fairly evenly distributed, except for the 19 and 19 year olds, there are about twice as many customers as the other ages. 
+
+  * Insurance agencies will charge more the older you are, on the same note, younger people tend to have lower premiums. 
 
   #Body Mass Index
 Let's look at the distribution of BMI (Body Mass Index) of customers, using a histogram and box plot.
