@@ -39,7 +39,7 @@ Our Goal: Use Machine Learning to estimate the annual medical spending of new cu
 
 First 5 rows of our csv file:
 
-![Alt text](image.png)
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/6a897936-eff2-4d01-ab9d-4258f60eee77)
 
   * The dataset contains 1338 rows and 7 columns. Each row of the dataset contains information about one customer.
 
