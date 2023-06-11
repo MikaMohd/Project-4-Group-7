@@ -62,16 +62,22 @@ The age is fairly evenly distributed, except for the 19 and 19 year olds, there 
 
   * Insurance agencies will charge more the older you are, on the same note, younger people tend to have lower premiums. 
 
-  #Body Mass Index
-Let's look at the distribution of BMI (Body Mass Index) of customers, using a histogram and box plot.
+#### Body Mass Index (BMI)
 
-![Alt text](BMI-1.png)
 
-The measurements of body mass index seem to form a Gaussian distribution centered around the value 30, with a few outliers towards the right.
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/99d16af9-5ac4-4fa5-8e8e-de668b30d7f1)
 
-Insight:why the distribution of ages forms a uniform distribution while the distribution of BMIs forms a gaussian distribution?
+The CDC's measurements for body-mass index is calculated by taking the person's weight in pounds divided by the sqaure of the height in feet. A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health problems, but it does not diagnose the body fatness or health of an individual.[^1]
 
-As there are same number of people in age groups the distribution we get is uniform distribution.But, for BMIs distribution we get gaussian distribution as people who are between 20-3- are considered to be healthy relatively and less than or more than this range is considered to be health risk categories and these people are more prone to health issues and thus company will have to pay more medical bills of this kind of customers and thus they provide these type of people same health insuarance at higher prices and which in-turn attracts lesser people with out of healthy range BMI because they have to pay more.
+[^1]: [Center's for Disease Control and Prevention- About Adult BMI](https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/index.html)
+
+Our dataset shows that the majority of our dataset is considered 'Overwight' or 'Obese'. 
+
+We wanted to explore with how BMI is related to charges, because we thought that having a higher BMI may mean that you accrue more medical charges, since being overweight may come with more health problems. 
+
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/b5520762-4beb-43ae-a669-7f7585727cd1)
+
+The above chart shows how charges are distributed based on BMI. When we added color based on smoking status, you could see that BMI alone did not necessarily cause higher charges to be accrued, but being overwight and a smoker did cause an increase in health related charges. 
 
   #Charges
 Let's visualize the distribution of "charges" i.e. the annual medical charges for customers. This is the column we're trying to predict. Let's also use the categorical column "smoker" to distinguish the charges for smokers and non-smokers.
