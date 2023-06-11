@@ -98,10 +98,14 @@ Looking at the ages of the dataset measured against the charges incurred, we can
 
 After changing the categorical data to numerical data, we were able to use RandomForest Regressor to train and test a model using our data. We did suspect that bmi and smoker columns would be important in determining charges and the correlation matrix confirmed that along with age, these columns were more closely relation to charges that other columns. 
 
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/74472f68-0c5f-4bcb-b86e-81dd5b1a3064)
+
 The greater the absolute value of the correlation coefficient, the stronger the relationship. 
 
 Positive coefficients show that when the value of one variable increases, the value of the other variable also tends to increase. Positive relationships will show an upward slope on a scatterplot.
 
 Negative coefficients represent cases when the value of one variable increases, the value of the other variable tends to decrease. This would produce a downward slope.
+
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/c351740f-c221-4680-94d2-98580bf3c01c)
 
 We used the Random Forest Regressor and it showed that smoker had the highest feature importance. We did run the RandomForest model with the data as is and again with the data scaled. There was not significant change in findings.
