@@ -90,5 +90,13 @@ We can make the following observations from the above graph:
  * Only a small number of customers have higher medical expenses. 
  * Smokers in this dataset are having more annual charges for medical care cost, even though there are significantly less smokers in the dataset than nonsmokers (1064 no, 274 yes)
 
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/b1760986-6326-44f8-8fbf-0cebd815111b)
 
+Looking at the ages of the dataset measured against the charges incurred, we can see a steady trend of increased costs as the participants increase in age. We were able to distinctively see that there are three mysterious sections splitting the data points. We attempted to due some further analysis, but were not able to identify if those sections belonged to a third dimension in the data. 
   
+### Columns Closely Related to `charges` 
+
+After changing the categorical data to numerical data, we were able to use RandomForest Regressor to train and test a model using our data. We did suspect that bmi and smoker columns would be important in determining charges and the correlation matrix confirmed that along with age, these columns were more closely relation to charges that other columns. 
+The greater the absolute value of the correlation coefficient, the stronger the relationship. Positive coefficients show that when the value of one variable increases, the value of the other variable also tends to increase. Positive relationships will show an upward slope on a scatterplot.
+Negative coefficients represent cases when the value of one variable increases, the value of the other variable tends to decrease. This would produce a downward slope.
+We used the Random Forest Regressor and it showed that smoker had the highest feature importance. We did run the RandomForest model with the data as is and again with the data scaled. There was not significant change in findings.
