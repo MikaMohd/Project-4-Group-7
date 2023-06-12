@@ -1,6 +1,6 @@
 # Project-4-Group-7
 
-![Health_Cost_Dashboard](https://github.com/MikaMohd/Project-4-Group-7/assets/45497824/8718d534-2251-42ca-ad18-b3c2c9031eda)
+![OIP](https://github.com/MikaMohd/Project-4-Group-7/assets/45497824/757962f5-91f2-4aba-88d0-6ff9b5241531)
 
 Bootcamp UTA-VIRT-DATA-PT-12-2022-U-LOLC-MTTH
 ### Group 7 - Health Insurance Expenses Prediction
