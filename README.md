@@ -37,7 +37,7 @@ Age is a numeric column. The minimum age in the dataset is 18 and the maximum ag
 ![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/79157f4f-5132-483f-9d0a-8870eae14ccf)
 
 
-The age is fairly evenly distributed, except for the 19 and 19 year olds, there are about twice as many customers as the other ages. 
+The age is fairly evenly distributed, except for the 18 and 19 year olds, there are about twice as many customers as the other ages. 
 
   * Insurance agencies will charge more the older you are, on the same note, younger people tend to have lower premiums. 
 
