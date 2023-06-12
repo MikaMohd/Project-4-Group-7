@@ -3,30 +3,6 @@
 ![How-can-companies-reduce-healthcare-costs](https://github.com/MikaMohd/Project-4-Group-7/assets/45497824/8f9adde0-bfdb-44b8-8dfa-ca14fc13c2ab)
 
 Bootcamp UTA-VIRT-DATA-PT-12-2022-U-LOLC-MTTH
-
-
-
-
-For Project 4, you will work with your group to solve, analyze or visualize a problem using machine learning (ML) with the other technologies we've learned. 
-## Requirements
-1. Find a problem worth solving, analyzing or visualizing. 
-2. Use machine learning (ML) with the technologies we've learned. 
-3. You must use Scikit-learn and/or another machine learning library.
-4. Your prject must be powered by a dtaset with at least 100 records.
-5. You must use at least two of the following:
-
-  * Python Pandas
-  * Python Matplotlib
-  * HTML/CSS/Bootstrap
-  * JavaScript Plotly
-  * JavaScript Leaflet
-  * SQL Database
-  * MongoDB Database
-  * Google Cloud SQL
-  * Amazon AWS
-  * Tableau
-
-
 ### Group 7 - Health Insurance Expenses Prediction
 Using Machine Learning to predict annual medical spending for new customers
 
