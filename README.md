@@ -88,3 +88,27 @@ Negative coefficients represent cases when the value of one variable increases, 
 ![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/c351740f-c221-4680-94d2-98580bf3c01c)
 
 We used the Random Forest Regressor and it showed that smoker had the highest feature importance. We did run the RandomForest model with the data as is and again with the data scaled. There was not significant change in findings.
+
+### Regression Methods
+
+![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/bb838126-8957-479f-ad2c-bc67af8fe0f1)
+
+* Our Linear Regression model was not quite where we wanted it to be, so when we ran other Machine Learning Models the results were slightly better. 
+* The target column was charges, which were in dollar amounts. Once data that was scaled was inverted back to dollar amounts, our Gradient Boosting and Random Forest Regressor Models did about the same in predicting charges that customers would accrue. 
+* This would potentially be used by an insurance company to decide what premium amount to charge a new customer based on information gathered about their health history. 
+* A mentioned before, there was not a real significant change in results when the data was scaled or not. 
+
+### What is This Dataset Lacking?
+
+The model would benefit from more columns!
+We would have liked to have more data that includes:
+ * Pregnancies or other hospital stays
+ * High Blood Pressure
+ * Heart Disease
+ * Work Type
+ * Medications
+ * Other Pre-Existing Conditions
+ * Balance of participants in the smoking/non-smoking category
+
+Access to the above information may yield more accuracy or other insights into how much customers are spending on health care costs. Again, this could be used by an insurance to determine and appropriate premium amount to charge that would aid a client into covering health care costs. 
+
