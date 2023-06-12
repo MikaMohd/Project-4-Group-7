@@ -71,7 +71,7 @@ We can make the following observations from the above graph:
 
 ![image](https://github.com/MikaMohd/Project-4-Group-7/assets/115905663/b1760986-6326-44f8-8fbf-0cebd815111b)
 
-Looking at the ages of the dataset measured against the charges incurred, we can see a steady trend of increased costs as the participants increase in age. We were able to distinctively see that there are three mysterious sections splitting the data points. We attempted to due some further analysis, but were not able to identify if those sections belonged to a third dimension in the data. 
+Looking at the ages of the dataset measured against the charges incurred, we can see a steady trend of increased costs as the participants increase in age. We were able to distinctively see that there are three mysterious sections splitting the data points. We attempted to do some further analysis, but were not able to identify if those sections belonged to a third dimension in the data. 
   
 ### Columns Closely Related to `charges` 
 
