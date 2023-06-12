@@ -1,6 +1,6 @@
 # Project-4-Group-7
 
-![How-can-companies-reduce-healthcare-costs](https://github.com/MikaMohd/Project-4-Group-7/assets/45497824/8f9adde0-bfdb-44b8-8dfa-ca14fc13c2ab)
+![Health_Cost_Dashboard](https://github.com/MikaMohd/Project-4-Group-7/assets/45497824/8718d534-2251-42ca-ad18-b3c2c9031eda)
 
 Bootcamp UTA-VIRT-DATA-PT-12-2022-U-LOLC-MTTH
 ### Group 7 - Health Insurance Expenses Prediction
