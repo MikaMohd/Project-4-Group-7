@@ -1,4 +1,7 @@
 # Project-4-Group-7
+
+![How-can-companies-reduce-healthcare-costs](https://github.com/MikaMohd/Project-4-Group-7/assets/45497824/8f9adde0-bfdb-44b8-8dfa-ca14fc13c2ab)
+
 Bootcamp UTA-VIRT-DATA-PT-12-2022-U-LOLC-MTTH
 
 
